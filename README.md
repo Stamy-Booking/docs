@@ -1,9 +1,11 @@
 # Widgets
 
-Die folgenden Files müssen in die Webseite eingebunden werden.
+Die folgenden javascript files müssen in die Webseite eingebunden werden.
 
- - https://widgets.stamybooking.com/vendor.js
- - https://widgets.stamybooking.com/stamy-widgets.js
+``` html
+<script src="https://widgets.stamybooking.com/vendor.js"></script>
+<script src="https://widgets.stamybooking.com/stamy-widgets.js"></script>
+```
 
 ## Shopping Cart
 
