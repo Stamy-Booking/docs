@@ -91,3 +91,11 @@ die relevanten Nutzeraktionen werden getrackt.
 ``` html
 <stamy-tracking></stamy-tracking>
 ```
+
+# Settings
+
+Das Farbschema und die Schriftart können in der Manage App unter:
+
+Einstellungen > Webauftritt
+
+definiert werden.
