@@ -22,7 +22,7 @@ Falls der Kunde nicht eingeloggt ist, erscheint ein Dialog zum Login/Registratio
 Falls der Kunde eingeloggt ist, wird bei einem Klick auf das Kundenportal umgeleitet.
 
 ``` html
-<stamy-account-button portalUrl="/customer"></stamy-account-button>
+<stamy-account-button portal-url="/customer"></stamy-account-button>
 ```
 
 Parameter:
@@ -66,21 +66,21 @@ Das folgende Attribut entscheidet darüber, ob der Button für Klassen oder Flex
 | Attribut    | Beschreibung| 
 | ------------- |:-------------:|
 | mode      | 'single-course', 'course-series', 'courses', 'flex-time'|
-| appointmentId    | id des Kurses |
-| appointmentSlug    | Permalink des Kurses (als Alternative zur id) |
-| serviceProductId    | id des Services |
-| serviceProductSlug    | Permalink des Services (als Alternative zur id) |
-| consultantId    | id des Consultants |
-| consultantSlug    | Permalink des Consultants (als Alternative zur id) |
+| appointment-id   | id des Kurses |
+| appointment-slug   | Permalink des Kurses (als Alternative zur id) |
+| service-product-id   | id des Services |
+| service-product-slug    | Permalink des Services (als Alternative zur id) |
+| consultant-id    | id des Consultants |
+| consultant-slug    | Permalink des Consultants (als Alternative zur id) |
 
 ### Beispiele:
 
 ``` html
-<stamy-booking-button mode="single-course" appointmentSlug="some-awesome-course"></stamy-booking-button>
+<stamy-booking-button mode="single-course" appointment-slug="some-awesome-course"></stamy-booking-button>
 ```
 
 ``` html
-<stamy-booking-button mode="flex-time" serviceProductSlug="some-awesome-service" consultantSlug="some-awesome-teacher"></stamy-booking-button>
+<stamy-booking-button mode="flex-time" service-product-slug="some-awesome-service" consultant-slug="some-awesome-teacher"></stamy-booking-button>
 ```
 
 ## Tracking
